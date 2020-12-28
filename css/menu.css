@@ -224,14 +224,37 @@ html {
 .text_column {
     width: 45%;
     text-align: justify;
-    font-weight: lighter;
+	font-weight: lighter;
+	font-size: 20px;
     line-height: 25px;
     float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+	color: #5A3B5D;
+}
+
+.text_column_rigth {
+    width: 45%;
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 25px;
+    float: right;
     padding-left: 20px;
     padding-right: 20px;
     color: #5A3B5D;
 }
 
+.agradecimiento {
+	width: 45%;
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 25px;
+    padding-left: 25%;
+    color: #5A3B5D;
+    align-items: center;
+    display: flex;
+    font-size: 23px;
+}
 img.center {
     display: block;
     margin: 0 auto;
