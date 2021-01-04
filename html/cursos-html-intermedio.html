@@ -2,20 +2,193 @@
 <html>
 
 <head>
-    <title>Download Images using Axios</title>
-    <style>
-        .scroll {
-            height: 1000px;
-            background-color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/cursos-intermedio.css">
 </head>
 
 <body>
-    <a href="../archivos/Sample.pdf" download="MyGoogleLogo">download me</a>
+    <div class="container">
+        <button id="burger" class="open-main-nav">
+            <span class="burger"></span>
+            <span class="burger-text">Menu</span>
+        </button>
+        <a href="../index.html">
+            <img src="../img/logo_UniversiWEB_final.png" height="50" width="55" alt="boton logo">
+        </a>
+
+        <nav class="main-nav" id="main-nav">
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./cursos.html">Cursos por nivel</a>
+                </li>
+                <li>
+                    <a href="./libros.html">Libros</a>
+                </li>
+                <li>
+                    <a href="./recursos.html">Recursos multimedia</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <section class="information">
+            <h1> Curso para intermedios </h1>
+            <h2 class="slogan"> ¿Y ahora que sé HTML, CSS y JavaScript? ¿Qué hago? ¿Ya puedo empezar a realizar un página web?</h2>
+        </section>
+        <section class="description">
+            <p>
+                La respuesta breve y rápida sería <strong> SÍ </strong>. Sin embargo, si quieres que el proceso sea más sencillo y que tu página sea más potente y poder ofrecer más funcionalidades, entonces, el camino aún es largo. Algunos sitios por
+                donde comenzar serían:
+            </p>
+
+
+            <ul>
+                <li> <strong> jQuery:  </strong> no es un lenguaje de programación sino una popular <strong> biblioteca de Javascript </strong>. Concretamente es una biblioteca de manipulación de objetos del documento (DOM). DOM es una representación en forma
+                    de árbol de todos los elementos de una página web, haciendo uso de jQuery se simplifica la sintaxis para la búsqueda, selección y manipulación de los elementos DOM, permitiendo comprimir varias líneas de código en una sola función.
+                    Además, proporciona un paradigma para el manejo de eventos. La asignación de eventos y la definición de la función de devolución de llamada de eventos se realizan en un solo paso en una única ubicación en el código. Los principios
+                    que sigue el desarrollo con jQuery son:
+
+                    <ul>
+                        <li> <strong> La separación de JavaScript y HTML</strong> </li>
+                        <li> <strong> Brevedad y claridad </strong> </li>
+                        <li> <strong> Eliminación de incompatibilidades entre navegadores </strong> </li>
+                        <li> <strong> Extensibilidad  </strong> </li>
+                    </ul>
+                    A continuación podrás encontrar diversos recursos que te ayudarán a profundizar en el tema o de apoyo en tu proceso de aprendizaje
+                </li>
+            </ul>
+        </section>
+
+        <section class="description">
+            <div class="container-grid">
+                <div class="cheat-HTML">
+                    <h3> Guía sobre cómo aprender </h3>
+                    <a href="https://www.bitdegree.org/tutorials/learn-jquery/" target="_blank"> jQuery </a>
+                </div>
+
+                <div class="cheat-CSS">
+                    <h3> Consultar manual para </h3>
+                    <a href="https://desarrolloweb.com/manuales/manual-jquery.html" target="_blank"> jQuery </a>
+                </div>
+
+                <div class="cheat-JS">
+                    <h3> Consultar resumen funciones </h3>
+                    <a href="../archivos/jQuery-Cheat-Sheet.pdf" download="jQuery-CHEAT"> jQuery </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="description">
+            <ul>
+
+                <li> <strong> Sass: </strong> (Syntactically Awesome Stylesheets). Es un procesador CSS, es decir, es una herramienta que nos permite generar, automáticamente, hojas de estilo permitiendo añadir características propias de los lenguajes de programación,
+                    como pueden ser variables, funciones, selectores anidados, herencia, etc. Al utilizar Saas las ventajas que se obtienen son:
+                    <ul>
+                        <li> Reduce el tiempo para crear y mantener el CSS. </li>
+                        <li> Permite tener una organización modular de los estilos, lo cual es vital para proyectos grandes. </li>
+                        <li> Proporciona estructuras avanzadas propias de los lenguajes de programación, como variables, listas, funciones y estructuras de control. </li>
+                        <li> Permite generar distintos tipos de salida, comprimida, normal o minimizada, trabajando tanto en desarrollo como en producción, además se hace una forma muy fácil. </li>
+                        <li> Permite vigilar los ficheros, de tal manera que, si ha habido un cambio en la hoja de estilos, se regenera automáticamente (modo watch). </li>
+                        <li> Tiene muy pocas dependencias, sobre todo la nueva versión, que es dart-sass. En las anteriores versiones se dependía de muchas librerías de Ruby y era un poco engorroso de instalar, pero con la nueva versión, la instalación es
+                            muy fácil. </li>
+                        <li> Existen muchas herramientas asociadas, muchas librerías hechas con Sass y una comunidad muy importante de usuarios. </li>
+                    </ul>
+                    A continuación podrás consultar varios recursos si deseas profundizar más a cerca de Sass:
+
+                </li>
+            </ul>
+        </section>
+
+        <section class="description">
+            <div class="container-grid">
+                <div class="cheat-HTML">
+                    <h3> Qué es y cómo aprender </h3>
+                    <a href="https://desarrolloweb.com/articulos/que-es-sass-usar-sass.html" target="_blank"> Saas </a>
+                </div>
+
+                <div class="cheat-CSS">
+                    <h3> Consultar manual para </h3>
+                    <a href="https://desarrolloweb.com/manuales/manual-sass.html" target="_blank"> Saas </a>
+                </div>
+
+                <div class="cheat-JS">
+                    <h3> Consultar resumen sobre sintaxis </h3>
+                    <a href="../archivos/Saas-Cheat-Sheet.pdf" download="jQuery-CHEAT"> Saas </a>
+                </div>
+
+                <div class="cheat-CSS">
+                    <h3> Traductor directo de CSS a </h3>
+                    <a href="https://css2sass.herokuapp.com/" target="_blank"> Saas </a>
+                </div>
+
+                <div class="cheat-HTML">
+                    <h3> Traductor directo de SCSS a </h3>
+                    <a href="https://jsonformatter.org/sass-to-css" target="_blank"> CSS </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="description">
+            <ul>
+                <li> <strong> less: </strong> Less (a veces estilizado como LESS) es un dinámico lenguaje de hojas de estilo que puede ser compilado en hojas de estilo en cascada (CSS) y ejecutarse en el lado del cliente o en el lado del servidor. Al igual
+                    que Saas, LESS extiende CSS para dotarlo de un comportamiento dinámico mediante el uso de variables, mixins (conjunto de propiedades CSS agrupadas o lo que es lo mismo, un array), operaciones y funciones.
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="description">
+            <div class="container-grid">
+                <div class="cheat-HTML">
+                    <h3> Qué es y cómo funciona </h3>
+                    <a href="https://www.genbeta.com/desarrollo/less-el-lenguaje-de-hojas-de-estilo-dinamico" target="_blank"> less </a>
+                </div>
+
+                <div class="cheat-JS">
+                    <h3> Tutorial extenso en inglés sobre </h3>
+                    <a href="https://www.tutorialspoint.com/less" target="_blank"> less </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="description">
+            <ul>
+                <li> <strong> Boostrap: </strong> </li>
+            </ul>
+        </section>
+
+
+        <section class="description">
+            <div class="container-grid">
+                <div class="cheat-HTML">
+                    <h3> Consultar resumen HTML </h3>
+                    <a href="../archivos/Sample.pdf" download="HMLT-CHEAT"> AQUI </a>
+                </div>
+
+                <div class="cheat-CSS">
+                    <h3> Consultar resumen HTML </h3>
+                    <a href="../archivos/css_cheat_sheet.pdf" download="HMLT-CHEAT"> AQUI </a>
+                </div>
+
+                <div class="cheat-JS">
+                    <h3> Consultar resumen HTML </h3>
+                    <a href="../archivos/Javascript-Cheat-Sheet.pdf" download="HMLT-CHEAT"> AQUI </a>
+                </div>
+
+
+            </div>
+        </section>
+        <section class="notice">
+            <strong>Laura Pérez Medeiro</strong> <br> Diseño y desarrollo de material multimedia aplicado
+        </section>
+    </div>
+    <script src="../js/menu.js"></script>
 </body>
-
-
-</html>
 
 </html>
