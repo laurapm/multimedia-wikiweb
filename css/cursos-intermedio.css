@@ -7,10 +7,6 @@
     
     body {
         background: linear-gradient(to bottom, #f1e0d3, #f3efec);
-        /*background: linear-gradient(to bottom, #F8ECE0, #F2F2F2);*/
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     
     div {
@@ -21,8 +17,6 @@
     }
     
     .description {
-        display: block;
-        margin-left: 5em;
         margin-block-end: 5em;
     }
     
@@ -32,14 +26,14 @@
         margin-right: auto
     }
     
-    p.intro-descripcion {
-        text-align: center;
-    }
-    
     .HTML-info {
         text-align: justify;
         margin-inline-start: 2%;
         margin-inline-end: 2%;
+    }
+    
+    .information {
+        margin-block-start: 5em;
     }
     
     .container-grid {
@@ -88,4 +82,12 @@
     
     .notice strong {
         font-weight: 700;
+    }
+    
+    .scroll {
+        border: 1px solid;
+        height: 100px;
+        width: 300px;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
