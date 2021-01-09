@@ -1,0 +1,104 @@
+    h1 {
+        text-align: center;
+        font-size: 45px;
+        text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 4px 1px #919191;
+        color: black;
+    }
+    
+    body {
+        background: linear-gradient(to bottom, #f1e0d3, #f3efec);
+        /*background: linear-gradient(to bottom, #F8ECE0, #F2F2F2);*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    div {
+        padding-left: 0 !important;
+        /* padding-right: 0 !important; */
+    }
+    
+    .contenido {
+        margin-right: 5em;
+        /* padding-left: 0 !important; */
+        /* padding-right: 0 !important; */
+        margin-left: 5em;
+    }
+    
+    .description {
+        display: block;
+        margin-left: 5em;
+        margin-block-end: 5em;
+    }
+    
+    .description img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    
+    p.intro {
+        text-align: justify;
+    }
+    
+    p.intro-descripcion {
+        text-align: center;
+    }
+    
+    .HTML-info {
+        text-align: justify;
+        margin-inline-start: 2%;
+        margin-inline-end: 2%;
+    }
+    
+    .container-grid {
+        text-align: center;
+        z-index: 4;
+        display: flex;
+    }
+    
+    .cheat-HTML {
+        padding: 20px;
+        color: #fff;
+        z-index: 4;
+        box-shadow: 10px 10px 5px grey;
+        background-color: #ff6464;
+        padding-left: 0! important;
+        padding-right: 0! important;
+        margin-left: 15em;
+        margin-right: 25em;
+    }
+    
+    .cheat-CSS {
+        padding: 20px;
+        color: #fff;
+        z-index: 4;
+        box-shadow: 10px 10px 5px grey;
+        background-color: #DB3056;
+    }
+    
+    .cheat-JS {
+        padding: 20px;
+        color: #fff;
+        z-index: 4;
+        box-shadow: 10px 10px 5px grey;
+        background-color: #851d41;
+    }
+    
+    a {
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .notice {
+        color: #5A3B5D;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+    }
+    
+    .notice strong {
+        font-weight: 700;
+    }
