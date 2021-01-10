@@ -18,14 +18,13 @@ h1 {
 }
 
 .container-grid {
-    width: 300px;
+    width: 500px;
     margin: 20px auto;
     grid-template-rows: repeat(2, 200px);
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     text-align: center;
     display: flex;
-    z-index: 5;
 }
 
 .item {
@@ -34,44 +33,50 @@ h1 {
     font-family: sans-serif;
     color: #fff;
     box-shadow: 10px 10px 5px grey;
+    z-index: 4;
 }
 
 .item--1 {
     background-color: #ff6464;
     grid-row: 0.6666666667;
     grid-column: 0.5;
+    z-index: 4;
 }
 
 .item--1:hover {
     background-color: #fc4949;
     grid-row: 0.6666666667;
     grid-column: 0.5;
+    z-index: 4;
 }
 
 .item--2 {
     background-color: #DB3056;
     grid-column: 0.5;
+    z-index: 4;
 }
 
 .item--2:hover {
     background-color: #ac2946;
     grid-column: 0.5;
+    z-index: 4;
 }
 
 .item--3 {
     background-color: #851d41;
     grid-row: 0.6666666667;
     grid-column: 0.6666666667;
+    z-index: 4;
 }
 
 .item--3:hover {
     background-color: #631530;
     grid-row: 0.6666666667;
     grid-column: 0.6666666667;
+    z-index: 4;
 }
 
 .imgResponsiva img {
     height: auto;
     width: 100%;
-    z-index: 4;
 }
